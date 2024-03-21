@@ -1,0 +1,1160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+   
+}
+.section{
+   
+  opacity: 0;
+    transition: all 0.8s linear;
+
+}
+
+
+
+.section.show{
+    opacity:1 ;
+
+ 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+ 
+}
+header{
+
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    
+}
+header .left-box i{
+    color: #03C988;
+}
+header .left-box{
+    display: flex;
+gap: 2rem;
+   align-items: center;
+  
+   
+}
+header .right-box{
+    display: flex;
+    gap: 2rem;
+   align-items: center;
+   flex-wrap: wrap;
+ 
+}
+header a{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  
+}
+header a:hover{
+    color: orange;
+}
+/* nav */
+nav{
+   
+    font-size: 0.8rem;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    background-color: #211C6A;
+    justify-content: space-between;
+    padding: 0 5rem;
+ 
+   
+}
+nav .logo img{
+    width: 40px;
+}
+nav .logo a {
+    color: #fff;
+    text-decoration: none;
+   padding: 0px 20px;
+text-transform: capitalize;
+transition: all 0.3s ease-in-out;
+}
+nav .logo a:hover{
+   color: orange;
+}
+.navbar a{
+    text-transform: capitalize;
+    color: #fff;
+}
+.navbar a:hover{
+    color: orange;
+}
+.navbar i{
+ 
+    padding: 0 10px;
+    color: #03C988;
+}
+.navbar ul  li a{
+    font-size: 0.8rem;
+   color: #000;
+}
+ .navbar .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+ .navbar .dropdown .dropdown-menu{
+    display: none;
+ }
+/* menu-btn */
+#menu{
+    display: none;
+}
+ #menu-icon{
+    display: none;
+ }
+ #close-icon{
+    display: none;
+ }
+ .btn1{
+    text-transform: capitalize;
+    background-color:#279EFF;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.4s ease;
+ }
+ .btn1:hover{
+    background-color: #ffae00;
+ }
+/* carsoul */
+.carousel img{
+    height: 90vh;
+    object-fit:cover;
+    background-position: center;
+  /* border-image: fill 0 linear-gradient(#0003,#000); */
+  
+} 
+
+.carousel i{
+    
+    color: #fff;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.carousel {
+    position: relative;
+
+}
+.carousel-text{
+ 
+    position: absolute;
+   top: 20%;
+   left: 15%;
+   text-align: center;
+
+}
+.carousel-text h1{
+    
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px #000;
+    color: #ffffff;
+    font-size: 4rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.carousel-text p{
+    letter-spacing: 1px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px #000;
+    color: #ffffff;
+ 
+    text-transform: capitalize;
+}
+
+/* home */
+.home2{
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    align-items: center;
+    margin-top: 7%;
+}
+.home2 .container{
+    box-shadow: 0px 0px 8px #000;
+    color: #ff8c00;
+}
+.home2-title h1{
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+   
+}
+.home2-title :nth-child(2){
+text-align: center;
+font-size: 1rem;
+}
+.home2-title p{
+    padding: 0px 4rem;
+}
+.home2-title .btn1{
+margin-left: 50%;
+margin-bottom: 4%;
+}
+.home3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    margin-top: 7%;
+    align-items: center;
+}
+.home3 .container{
+    box-shadow: 0px 0px 5px #000;
+    color: #ff8c00;
+    padding:1rem 4rem;
+    margin-bottom: 4rem;
+}
+
+.home3-title span{
+    margin: 20px 0px 30px;
+   padding-left: 20px;
+    border-left: 5px solid #ff8c00;
+} .home3-title span p{
+    padding-left: 1rem;
+}
+/* home */
+.home4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    margin-top: 7%;
+    align-items: center;
+}
+
+
+.mySwiper  .swiper-wrapper .swiper-slide img{
+    height: 350px;
+border-radius: 20px;
+object-fit: cover;
+background-position: center;
+background-size: cover;
+background: rgba(200,200,200,0.3);
+opacity: 0.8;
+}
+
+/* ingenral info */
+
+.general-info-text{
+    height: 280px;
+    border-radius: 20px;
+    color: rgba(171, 155, 155, 0.852);
+    font-size: 0.9rem;
+    background-color: rgba(200,200,200,0.3);
+}
+.general-info-text .general-info-img img{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+    margin: auto;
+  margin-bottom: 2rem;
+
+}
+
+
+.general-info-text h1{
+    font-size: 1rem;
+    padding: 0 2rem;
+    letter-spacing: 3px;
+}
+.general-info-text h5 {
+    padding: 0 2rem;
+    color: rgba(171, 155, 155, 0.852);
+ font-size: 0.7rem;
+ margin-bottom: 1.3rem;
+ 
+  }
+  .general-info-text h5 span {
+  
+     line-height: 1rem;
+  font-size: 0.7rem;
+  color: #000;
+  
+  
+
+   }
+
+
+
+
+
+
+
+/* .tabs */
+
+
+.tabs-section{
+    margin-top: 6%;
+   
+}
+.tabs-section .tabs{
+    background-color: rgba(200,200,200,0.3);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+ .nav-pills  {
+    display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+ 
+
+}
+.tabs-section .tabs .nav-pills .nav-item .nav-link{
+background-color: #211C6A;
+padding: 0.5rem 4.7rem;
+color: #fff;
+border: 1px solid #fff;
+text-transform: capitalize;
+font-weight: 600;
+
+margin-left: 0.2rem;
+width: 100%;
+}
+
+
+/* accordion-item */
+.accordion h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+
+.accordion .accordion-item .accordion-header .accordion-click{
+    background-color: #211C6A;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0px;
+    padding: 1rem 2rem;
+    border: none;
+    width: 100%;
+    text-align: left; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion .accordion-item .accordion-header .accordion-click i{
+    color: rgba(200,200,200,0.3);
+}
+
+
+.accordion .accordion-item .accordion-header .collapsed {
+    border: none;
+
+}
+.accordion .accordion-item .accordion-body{
+    background-color:rgba(200,200,200,0.3) ;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* home 5*/
+.home5{
+   
+    margin-top: 7%;
+
+}
+.home5 .pass{
+   gap: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+   border-radius: 8px;
+background-color: #279EFF;
+
+}
+.home5 .pass h3,.home5 .student h3,.home5 .educating h3,.home5 .alumini h3{
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+.home5 .pass p,.home5 .student p,.home5  .educating  p,.home5 .alumini p{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1rem;
+  letter-spacing: 5px;
+    padding: 15px;
+    text-align: left;
+   color: #f7f8f9;
+}
+.home5 .student{
+    /* width: 300px; */
+    height: 250px;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+   border-radius: 8px;
+background-color: #ff8c00;
+}
+.home5 .alumini{
+    height: 250px;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+   border-radius: 8px;
+   background-color: #9BCF53;
+}
+
+
+.home5 .educating{
+    gap: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+   border-radius: 8px;
+background-color: #FAEF5D;
+}
+.newletter{
+
+    background-color: rgba(200,200,200,0.3);
+}
+.newsletter-title{
+    margin-top: 2rem   ;
+    text-align: center;
+    text-transform: uppercase;
+    color: #279EFF;
+}
+.newletter form{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.newletter form input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+/* fotter */
+footer{
+    color: #fff;
+   
+    
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s ease-in-out;
+}
+footer a:hover{
+    color: orange;
+}
+footer h5{
+    font-size: 1rem;
+    text-transform: capitalize;
+  color: orange;
+
+}
+footer p{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+ .copyright{
+    background-color: #000000;
+}
+.copyright .social-icons i {
+    padding: 8px 10px;
+    color: #fff;
+    font-size: 0.7rem;
+  margin: 0px 5px;
+    background-color: rgba(200,200,200,0.3);
+    border-radius: 50%;
+}
+
+/*  */
+/*  */
+/*  */
+.school-histroy-img img{
+    height: 80vh;
+    object-fit: cover;
+    background-position: center;
+}
+
+.histroy-text{
+    background-image: url('./images/shapes-bg-color.png');
+    z-index: 2;
+    
+}
+.histroy-text .histroy-para {
+    box-shadow: 0px 0px 5px ;
+padding: 3rem;
+ 
+}
+
+.histroy-para h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #279EFF;
+    
+}
+.histroy-para p{
+  padding-bottom: 1rem;
+    color: #387ADF;
+    letter-spacing: 1px;
+}
+
+.histroy-text .guiding-sprit-title h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #BF3131;
+}
+/* guiding-sprit */
+.guiding-sprit  .row    {
+    box-shadow: 0px 0px 8px;
+    padding: 3rem 6rem;
+}
+
+.guiding-sprit img{
+ height: 250px;
+ /* width: 280px; */
+    border-radius: 10px;
+    object-fit: cover;
+   
+}
+.guiding-sprit .guiding-text{
+    padding: 3rem 2rem;
+}
+.guiding-sprit .guiding-text h2{
+    color:#387ADF;
+    font-size:2rem ;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.guiding-sprit .guiding-text ul li {
+    list-style:disc;
+}
+
+/* set-management */
+.management-trustees{
+    color: #211C6A ;
+text-align: center;
+    background-color:  #fff ;
+}
+.management-trustees .card {
+    padding: 1rem 4rem;
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+ 
+}
+.management-trustees .card img{
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+}
+.management-trustees  .set-management h1{
+  
+    font-weight: 600;
+    /* font-size: 2rem; */
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+/* facilitites-img */
+.facilitites-img{
+   
+    height: 80vh;
+    object-fit: cover;
+   background-position: center;
+    background-size: cover;
+    background-image: url('./images/carsoul/event1.jpg');
+}
+.facilities {
+    padding: 80px 0px;
+}
+.facilities .facilities-title h1{
+    
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 2rem;
+    color: #BF3131;
+
+}
+.facilities img{
+    margin-top: 0.5rem;
+    height: 280px;
+    object-fit: cover;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;
+   overflow: hidden;
+    cursor: pointer;
+
+}
+
+.facilities .col{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.facilities .col h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+ #facilities-modal .modal-img{
+width: 100%;
+ }
+ /* gallery */
+ .gallery {
+    padding: 80px 0px;
+}
+ .gallery .gallery-title h5{
+    
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 2rem;
+    color: #BF3131;
+
+}
+.gallery img{
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+   overflow: hidden;
+    cursor: pointer;
+
+}
+.gallery img:hover{
+    opacity: 0.3;
+}
+.gallery .col{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* admission-img */
+.admission-img{
+    height: 80vh;
+    object-fit: cover;
+   background-position: center;
+    background-size: cover;
+    background-image: url('./images/carsoul/event.jpg');
+}
+ 
+.admission-form  {
+    margin-top: 7%;
+  
+}
+
+.admission-form .form form{
+ padding: 4rem 5rem;
+ background-color: #7071E8;
+ border-radius: 10px;
+}
+.admission-form .form form .admission-title h2{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.feedback-qestion{
+    padding:1rem 5rem;
+}
+.accordion  .accordion-item .accordion-header button{
+    border-top: 2px solid #7071E8;
+}
+/* careers */
+.careers-img{
+    height: 100dvh;
+ 
+   background-size: cover;
+   background-position: center;
+object-fit: cover;
+    background-image: url('./images/carsoul/event1.jpg');
+}
+.careers{
+    margin-top: 10dvh;
+}
+.careers .careers-caption .career-title h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+ .careers .careers-caption{
+    padding: 2rem 1rem;
+    
+}
+.careers-caption ul li{
+    list-style:disc;
+}
+.careers .careers-poisition .career-title h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    color: #fff;
+
+}
+.careers .careers-poisition  h3{
+    color: #fff;
+}
+.careers .careers-poisition {
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    background-color:#3c77edd4;
+}
+
+.careers-poisition ul li{
+    list-style:decimal;
+    color: #E1E5EA;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+.careers-poisition span{
+    color: red;
+}
+/* form-career */
+.container .career-form {
+    border-radius: 10px;
+    padding: 2rem;
+    width:45%;
+    margin: auto;
+    background-color: #3CCF4E;
+    
+}
+
+.container   .form .admission-title h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+}
+.container   .form label{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.container   .form span{
+    color: red;
+}
+::placeholder{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* contact */
+.contact{
+    margin-top: 5%;
+    background-image: url('./images/shapes-bg-color.png');
+}
+
+.contact .school-location{
+    padding: 2rem;
+   display: flex;
+   gap: 3rem;
+   border-radius: 8px;
+    background-color: rgba(167, 166, 166, 0.3);
+}
+.contact .school-location i{
+font-size: 2rem;
+margin-top: 1rem;
+}
+.contact .school-location h3{
+    color: #211C6A;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.contact .school-location p{
+    padding: 1rem 0rem;
+
+}
+.contact .contact-form .contact-title h3{
+text-transform: uppercase;
+color: #211C6A;
+}
+/* school-email */
+.contact  .school-email{
+padding: 2rem;
+display: flex;
+gap: 3rem;
+border-radius: 7px;
+ background-color: rgba(167, 166, 166, 0.3);
+}
+.contact  .school-email i{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.contact .school-email p{
+   padding: 1rem;
+
+}
+/*  */
+.contact .school-account{
+    padding: 2rem;
+display: flex;
+gap: 3rem;
+border-radius: 7px;
+ background-color: rgba(167, 166, 166, 0.3);
+}
+.contact .school-account i{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.contact .school-account h3{
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #211C6A;
+  
+}
+.contact .school-account p{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #000;
+}
+.contact-form iframe{
+    border-radius: 10px;
+}
+.contact .school-account  .school-account-info a{
+    text-decoration: none;
+ }
+ .contact .school-account  .school-account-info a:hover{
+    color: orangered;
+ }  
+@media screen and  ( max-width: 768px) {
+    .menu-btn #close-icon{
+        display: none;
+       
+    }
+    
+    #menu-icon{
+        display: inherit;
+        font-size: 1.2rem;
+        color:#ffae00;
+        
+    } 
+   
+    nav {
+        padding: 10px;
+        
+    }
+   
+    nav .logo img{
+        width: 20px;
+    }
+   nav  .navbar {
+   
+        position: fixed;
+        top: -200%;
+        left: 0;
+        right: 0;
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        gap: 2rem;
+        padding-top: 10px;
+        align-items: center;
+z-index: 999;
+      
+       
+    }
+
+    #menu:checked ~.navbar{
+        top:15% ;
+        border-top: 2px solid #D61C4E;
+        border-bottom: 2px solid #D61C4E;
+    background-color: #494772;
+       transition: all 1s;
+      
+      }
+      
+      #menu:checked~.menubtn #menu-icon{
+        display: none;
+      }
+      #menu:checked~.menubtn #close-icon{
+        display: block;
+        color: orange;
+        font-size: 1.2rem;
+        
+      }
+    /* header */
+    header{
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 1rem;
+        
+    }
+    header .left-box{
+        gap: 1rem;
+    }
+    header .right-box{
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        background-color: #FFFDDE;
+    }
+    header .right-box a{
+        /* text-decoration: underline; */
+        color: #211C6A;
+    }
+
+  /* carousel */
+/* carsoul */
+.carousel img{
+    height: 35vh;
+    object-fit:cover;
+    background-position: center;
+  /* border-image: fill 0 linear-gradient(#0003,#000); */
+  
+} 
+.carousel i{
+    font-size: 0.5rem;
+}
+  .carousel-text{
+    left: 1%;
+  }
+  .carousel-text h1{
+    font-size: 1rem;
+  }
+  .carousel-text p{
+    font-size: 0.6rem;
+  }
+  /* home2 */
+  .home2{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .home2 .container{
+  margin: 2rem;
+}
+  .home2-title p {
+    padding: 0px 0.5rem;
+  }
+  .home2-title .btn1{
+    margin-left: 5%;
+  }
+  /* home3 */
+  .home3{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .home3 .container{
+    margin: 2rem;
+    padding: 1rem;
+  }
+    .home3-title p {
+      padding: 0px 0.5rem;
+    }
+    /* tabs */
+   
+    .tabs-section .tabs .nav-pills  {
+      flex-direction: column;
+      padding: 1rem;
+    
+    }
+    .tab-content .tab-pane p{
+        padding: 1rem;
+    }
+/* accordion-item */
+.accordion {
+   margin-top: 1rem;
+}
+.accordion-item h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.home5 {
+    margin: 2rem;
+}
+    .home5 .img-box img{
+display: none;
+    }
+    
+ 
+   /* .newletter form{ */
+    .newletter form{
+        flex-direction: column;
+    }
+    .newletter form input{
+        width: 300px;
+    }
+   /* footer */
+ 
+   .copyright .container .row {
+    flex-direction: column;
+   }
+  
+   .copyright .social-icons i{
+    /* margin-top: 1rem; */
+    font-size: 1rem;
+
+   }
+   .copyright p{
+    text-align: center;
+    font-size: 0.7rem;
+   }
+   /*  */
+   /*  */
+   /*  */
+   .facilitites-img{
+    height: 50vh;
+  
+}
+
+.facilities .col{
+    border-radius: 10px;
+}
+.facilities .col h5{
+    font-size: 1rem;
+}
+
+ /*gallery  */
+ .gallery{
+    margin: 2rem;
+}
+.gallery .col{
+    border-radius: 10px
+}
+.school-histroy-img  img{
+height: 40vh;
+}
+   .histroy-text{
+    padding: 1rem;    
+   }
+   .histroy-text .histroy-para {
+    
+padding: 1rem 0px;
+ letter-spacing: 0px;
+}
+.histroy-text .histroy-para h1{
+    font-size: 22px;
+    padding: 1rem;
+}
+.histroy-para p{
+    padding: 0.8rem;
+    letter-spacing: 0px;
+ }
+ /*  */
+ /* .guiding-sprit {
+padding: 10px;
+ } */
+ 
+ .guiding-sprit img{
+    height: 200px;
+   margin-top: 1rem;
+
+ }
+ .guiding-sprit  .row    {
+   
+    padding: 0.5rem ;
+}
+.guiding-sprit .guiding-text{
+    margin-top: 1rem;
+}
+.guiding-sprit .guiding-text h2{
+    font-size: 1.5rem;
+}
+
+
+/*  form  */
+.admission-img{
+    height: 40vh;
+   
+}
+.admission-form .form form {
+    padding: 1rem;
+}
+.admission-form .form form .admission-title h2{
+    font-size: 1.3rem;
+}
+/* career-form */
+
+
+.container .career-form {
+  
+ margin-top: 5%;
+    width:100%;
+   
+    
+}
+.careers-img{
+    height: 40vh;
+}
+.container .career-form  .address{
+    flex-direction: column;
+}
+.container .career-form .file{
+
+    flex-direction: column-reverse;
+}
+/* contact-form */
+.container .form {
+    margin-top: 7%;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.contact .contact-form  form .name-email{
+    flex-direction: column;
+}
+.contact .contact-form .subject-phone{
+    flex-direction: column;
+}
+.container .form .file {
+    flex-direction: column-reverse;
+}
+.container .form .address{
+    flex-direction: column;
+}
+
+/*  */
+
+.contact .school-email p{
+   padding: 1rem 0 0 0;
+ 
+ }
+ .contact .school-email {
+ gap: 1rem;
+ padding: 1rem;
+ 
+ }
+ .contact .school-account{
+    padding: 1rem;
+ }
+ .contact .school-account{
+    padding: 1rem;
+ }
+ 
+
+}
